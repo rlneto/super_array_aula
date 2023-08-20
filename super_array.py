@@ -22,13 +22,6 @@ class SuperArray:
             return self.__dados[pos - self.__linf]
 
 
-array1 = SuperArray(5, 2)
-print(array1.acessar(2))
-print(array1.acessar(3))
-print(array1.acessar(4))
-print(array1.acessar(5))
-
-
 class SuperMatriz:
     def __init__(self, nl, nc):
         self.__mat = SuperArray(0, ((nl * nc) - 1))
